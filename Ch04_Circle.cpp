@@ -14,19 +14,19 @@ double Circle::getArea() {
 
 Circle::Circle() {
 	radius = 1;
-	cout << "¹ÝÁö¸§ " << radius << "¿ø »ý¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << "ì› ìƒì„±" << endl;
 }
 
 int main() {
 	Circle donut;
 	// donut.radius = 1;
 	double area = donut.getArea();
-	cout << "donut ¸éÀûÀº " << area << endl;
+	cout << "donut ë©´ì ì€ " << area << endl;
 
 	Circle pizza;
 	pizza.radius = 30;
 	area = pizza.getArea();
-	cout << "pizza ¸éÀûÀº " << area << endl;
+	cout << "pizza ë©´ì ì€ " << area << endl;
 
 	return 0;
 }
