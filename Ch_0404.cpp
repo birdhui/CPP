@@ -9,11 +9,11 @@ public:
 	double getArea();
 };
 
-Circle::Circle() : Circle(1) { }	// À§ÀÓ »ý¼ºÀÚ : Å¸°Ù »ý¼ºÀÚ¸¦ È£ÃâÇÏ´Â »ý¼ºÀÚ -> °´Ã¼ ÃÊ±âÈ­¸¦ Å¸°Ù »ý¼ºÀÚ¿¡ À§ÀÓ
+Circle::Circle() : Circle(1) { }	// ìœ„ìž„ ìƒì„±ìž : íƒ€ê²Ÿ ìƒì„±ìžë¥¼ í˜¸ì¶œí•˜ëŠ” ìƒì„±ìž -> ê°ì²´ ì´ˆê¸°í™”ë¥¼ íƒ€ê²Ÿ ìƒì„±ìžì— ìœ„ìž„
 
-Circle::Circle(int r) {				// Å¸°Ù »ý¼ºÀÚ : °´Ã¼ ÃÊ±âÈ­¸¦ Àü´ãÇÏ´Â »ý¼ºÀÚ
+Circle::Circle(int r) {				// íƒ€ê²Ÿ ìƒì„±ìž : ê°ì²´ ì´ˆê¸°í™”ë¥¼ ì „ë‹´í•˜ëŠ” ìƒì„±ìž
 	radius = r;
-	cout << "¹ÝÁö¸§ " << radius << "¿ø »ý¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << "ì› ìƒì„±" << endl;
 }
 
 double Circle::getArea() {
@@ -21,12 +21,12 @@ double Circle::getArea() {
 }
 
 int main() {
-	Circle donut;		// ¸Å°³ º¯¼ö ¾ø´Â »ý¼ºÀÚ È£Ãâ
+	Circle donut;		// ë§¤ê°œ ë³€ìˆ˜ ì—†ëŠ” ìƒì„±ìž í˜¸ì¶œ
 	double area = donut.getArea();
-	cout << "donut ¸éÀûÀº " << area << endl;
+	cout << "donut ë©´ì ì€ " << area << endl;
 
 	Circle pizza(30);
-	cout << "pizza ¸éÀûÀº " << pizza.getArea() << endl;
+	cout << "pizza ë©´ì ì€ " << pizza.getArea() << endl;
 
 	return 0;
 }
