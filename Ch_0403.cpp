@@ -4,31 +4,31 @@ using namespace std;
 class Circle {
 public:
 	int radius;
-	Circle();			// ¸Å°³ º¯¼ö ¾ø´Â »ı¼ºÀÚ
-	Circle(int r);		// ¸Å°³ º¯¼ö ÀÖ´Â »ı¼ºÀÚ
+	Circle();			// ë§¤ê°œ ë³€ìˆ˜ ì—†ëŠ” ìƒì„±ì
+	Circle(int r);		// ë§¤ê°œ ë³€ìˆ˜ ìˆëŠ” ìƒì„±ì
 	double getArea();
 };
 
-Circle::Circle() {		// ¸Å°³ º¯¼ö ¾ø´Â »ı¼ºÀÚ
+Circle::Circle() {		// ë§¤ê°œ ë³€ìˆ˜ ì—†ëŠ” ìƒì„±ì
 	radius = 1;
-	cout << "¹İÁö¸§ " << radius << "¿ø »ı¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << "ì› ìƒì„±" << endl;
 }
 
-Circle::Circle(int r) {	// ¸Å°³ º¯¼ö ÀÖ´Â »ı¼ºÀÚ
+Circle::Circle(int r) {	// ë§¤ê°œ ë³€ìˆ˜ ìˆëŠ” ìƒì„±ì
 	radius = r;
-	cout << "¹İÁö¸§ " << radius << "¿ø »ı¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << "ì› ìƒì„±" << endl;
 }
 
-double Circle::getArea() {	// ÇÔ¼ö
+double Circle::getArea() {	// í•¨ìˆ˜
 	return 3.14 * radius * radius;
 }
 
 int main() {
 	Circle donut;
 	double area = donut.getArea();
-	cout << "donut ¸éÀûÀº " << area << endl;
+	cout << "donut ë©´ì ì€ " << area << endl;
 
 	Circle pizza(30);
-	cout << "pizza ¸éÀûÀº " << pizza.getArea() << endl;
+	cout << "pizza ë©´ì ì€ " << pizza.getArea() << endl;
 	return 0;
 }
