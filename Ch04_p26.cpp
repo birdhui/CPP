@@ -9,11 +9,11 @@ public:
 	double area();
 };
 
-Circle::Circle() : Circle(1) { }	// À§ÀÓ »ı¼ºÀÚ
+Circle::Circle() : Circle(1) { }	// ìœ„ì„ ìƒì„±ì
 
-Circle::Circle(int r) {		// Å¸°Ù »ı¼ºÀÚ
+Circle::Circle(int r) {		// íƒ€ê²Ÿ ìƒì„±ì
 	radius = r;
-	cout << "¹İÁö¸§ " << radius << "¿ø »ı¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << "ì› ìƒì„±" << endl;
 }
 
 double Circle::area() {
@@ -23,9 +23,9 @@ double Circle::area() {
 int main() {
 	Circle donut;
 	double area = donut.area();
-	cout << "donut ¸éÀûÀº " << area << endl;
+	cout << "donut ë©´ì ì€ " << area << endl;
 
-	Circle pizza(30);	// ¸Å°³ º¯¼ö ÀÖ´Â »ı¼ºÀÚ È£Ãâ
+	Circle pizza(30);	// ë§¤ê°œ ë³€ìˆ˜ ìˆëŠ” ìƒì„±ì í˜¸ì¶œ
 	area = pizza.area();
-	cout << "pizza ¸éÀûÀº " << area << endl;
+	cout << "pizza ë©´ì ì€ " << area << endl;
 }
