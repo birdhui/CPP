@@ -16,7 +16,7 @@ int main() {
 	rect.width = 3;
 	rect.height = 5;
 	int area = rect.getArea();
-	cout << "»ç°¢ÇüÀÇ ¸éÀûÀº " << area << endl;
+	cout << "Â»Ã§Â°Â¢Ã‡Ã¼Ã€Ã‡ Â¸Ã©Ã€Ã»Ã€Âº " << area << endl;
 
 	return 0;
 }
