@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	// ³×ÀÓ½ºÆäÀÌ½º
+	// Â³Ã—Ã€Ã“Â½ÂºÃ†Ã¤Ã€ÃŒÂ½Âº
 	std::cout << "Hello";
 	return 0;
 }
